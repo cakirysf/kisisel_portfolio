@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Portfolio Web Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/fontawesome-all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header, Logo & Menu  -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h2>
+            <a href="#">Kişisel <span>Portfolio</span></a>
+          </h2>
+        </div>
+        <ul class="nav_links" id="myLinks">
+          <li><a href="#">Anasayfa</a></li>
+          <li><a href="#yazilimlar">Yazılımlar</a></li>
+          <li><a href="#sertifikalar">Sertifikalarım</a></li>
+          <li><a href="#basarilar">Başarılar</a></li>
+          <li><a href="#hakkimda">Hakkımda</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+    <!-- menu bar responsive -->
+    <div id="menu_bar">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-bars"></i></a>
+    </div>
+    </header>
+
+    <!-- Anasayfa
+    <section class="anasayfa">
+      <div class="inner_anasayfa">
+        <div class="child_anasayfa">
+          <h1>
+            WEB SİTESİNE Mİ İHTİYACIN VAR?
+            <span class="span_child">NE BEKLİYORSUN?</span>
+          </h1>
+          <p>Kısa sürede etkili tasarımlar için</p>
+          <buttton class="btn">MESAJ GÖNDER</buttton>
+        </div>
+        <div class="child_anasayfa">
+          <img src="img/home-imgr.png" alt="" />
+        </div>
+      </div>
+    </section> -->
+    <section class="anasayfa">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slider-1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+           <div class="yazi">
+            <h5>WEB SİTESİNE Mİ İHTİYACIN VAR?
+              <span class="span_child"> <br>NE BEKLİYORSUN?</span></h5>
+            <p>Kısa sürede etkili tasarımlar için</p>
+          </div></div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slider-2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+           <div class="yazi">
+            <h5>WEB SİTESİNE Mİ İHTİYACIN VAR?
+              <span class="span_child"> <br>NE BEKLİYORSUN?</span></h5>
+            <p>Kısa sürede etkili tasarımlar için</p>
+          </div></div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slider-3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+           <div class="yazi">
+            <h5>WEB SİTESİNE Mİ İHTİYACIN VAR?
+              <span class="span_child"> <br>NE BEKLİYORSUN?</span></h5>
+            <p>Kısa sürede etkili tasarımlar için</p>
+          </div></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
+
+    <!-- Yazılımlar -->
+    <section class="yazilimlar" id="yazilimlar">
+      <div class="section_title"><h2>Yazılımlar</h2></div>
+      <div class="inner_software">
+        <div class="inner_software-child">
+          <div class="icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h2>HTML & CSS</h2>
+          <p>
+            Html ve Css ile isteğiniz üzerine dinamik olarak değiştirilebilir
+            web siteleri yapılabilir.
+          </p>
+        </div>
+
+        <div class="inner_software-child">
+          <div class="icon">
+            <i class="fa-brands fa-python"></i>
+          </div>
+          <h2>Python</h2>
+          <p>
+            Tüm masaüstü yazılımlar ve zor işlerinizi pratiğe dökmek için
+            Python'ın gücünden yararlanıyorum.
+          </p>
+        </div>
+
+        <div class="inner_software-child">
+          <div class="icon">
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+          <h2>JavaScript</h2>
+          <p>
+            Web sielerinin olmazsa olmazı olan JavaScript'i her projemde
+            kullanarak daha efektif siteler üretiyorum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sertifikalar -->
+    <section class="sertifikalar" id="sertifikalar">
+      <div class="section_title"><h2>Sertifikalar</h2></div>
+
+      <div class="inner_courses">
+        <div class="child_courses">
+          <div class="course_img">
+            <img src="./img/js.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Udemig</p>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="child_courses">
+          <div class="course_img">
+            <img src="./img/boot.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Udemig</p>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+          </div>
+          <h3>Bootstrap</h3>
+        </div>
+
+        <div class="child_courses">
+          <div class="course_img">
+            <img src="./img/react.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Udemig</p>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+          </div>
+          <h3>React Js</h3>
+        </div>
+
+        <div class="child_courses">
+          <div class="course_img">
+            <img src="./img/python.png" alt="" />
+          </div>
+          <div class="detail">
+            <p>Udemig</p>
+            <ul>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+          </div>
+          <h3>Python</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Başarılar -->
+    <section class="basarilar" id="basarilar">
+      <div class="section_title"><h2>Başarılar</h2></div>
+
+      <div class="inner_achivement">
+        <div class="child_archivement">
+          <img src="./img/about-img.jpg" alt="" />
+        </div>
+
+        <div class="child_archivement_right">
+          <div class="single_detail s1">
+            <h1>20+</h1>
+            <p>Portfolio Web</p>
+          </div>
+
+          <div class="single_detail s2">
+            <h1>30+</h1>
+            <p>Bussines Web</p>
+          </div>
+
+          <div class="single_detail s3">
+            <h1>40+</h1>
+            <p>E-ticaret Web</p>
+          </div>
+
+          <div class="single_detail s4">
+            <h1>20+</h1>
+            <p>Masaüstü Yazılım</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hakkında -->
+    <section class="hakkimda" id="hakkimda">
+      <div class="section_title">
+        <h2>Çalıştığım Firmalar Ne Söylediler</h2>
+      </div>
+
+      <div class="inner_about">
+
+        <div class="child_about">
+          <div class="about_img"><img src="./img/reviews/1.jpg" alt="" /></div>
+          <p>
+            "Yusuf Bey projeyi her zamanki gibi özenle hazırlayıp kısa sürede teslimat
+            yaptı."
+          </p>
+          <a href="#" class="about_user_link">Ayşe Demir</a>
+          <h4>Firma CEO</h4>
+        </div>
+
+        <div class="child_about">
+          <div class="about_img"><img src="./img/reviews/2.jpg" alt="" /></div>
+
+          <p>
+            Çok zor bir işi çok basit bir şekilde halletti, ihtiyacınızı siz
+            söylemeden anlayabiliyor kesinlikle bir şans verin
+          </p>
+          <a href="#" class="about_user_link">Merve Yılmaz</a>
+          <h4>Firma Müdürü</h4>
+        </div>
+
+        <div class="child_about">
+          <div class="about_img">
+          <img src="./img/reviews/3.jpg" alt="" />
+        </div>
+
+        <p>
+          Tekrar bir sorun yaşayacak olursam geleceğim yeri biliyorum. Gönül
+          rahatlığıyla tercih edebilirsiniz
+        </p>
+        <a href="#" class="about_user_link">Fatih Çetin</a>
+        <h4>Firma CEO</h4>
+      </div>
+
+      <div class="child_about">
+        <div class="about_img"><img src="./img/reviews/4.jpg" alt="" /></div>
+
+        <p>
+          Her şeyi en ince ayrıntısına kadar anlatıp her konuda yardımcı oldu
+          teşekkür ediyorum.
+        </p>
+        <a href="#" class="about_user_link">Serap Kara</a>
+        <h4>Firma Müdürü</h4>
+      </div>
+    </section>
+
+  <!-- İletşim -->
+  <section class="iletisim" id="iletisim">
+    <div class="section_title">
+        <h2>İletişim Bilgileri</h2>
+      </div>
+  
+        <div class="inner_contact">
+                <div class="child_contact">
+                    <img src="./img/contactt.png" alt="">
+                </div>
+
+                <div class="child_contact">
+                    <form action="">
+                       <input type="text" name="fullname" placeholder="İsim" id=""> 
+                       <input type="text" name="fullname" placeholder="E-posta" id=""> 
+                       <input type="text" name="fullname" placeholder="Tel No" id=""> 
+                       <textarea name="message" id="" cols="30" rows="10" placeholder="Mesajınızı Yazınız"></textarea>
+                        <input type="submit" value="Gönder" id="">
+                       
+                    </form>
+                </div>
+
+
+        </div>
+
+
+    </section>    
+
+    <!-- footer -->  
+    <footer>
+      <div class="inner_footer">
+        <div class="child_footer">
+          <h3>Hızlı İletişim</h3>
+          <p>
+            Selçuk Üniversitesi İşletme Yüksek Lisans Mezunuyum
+          </p>
+          <ul class="footer_social">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      
+      <div class="child_footer">
+        <h3>Linkler</h3>
+        <ul class="quick_links">
+          <li><a href="#">Anasayfa</a></li>
+          <li><a href="#yazilimlar">Yazılımlar</a></li>
+          <li><a href="#sertifikalar">Sertifikalarım</a></li>
+          <li><a href="#basarilar">Başarılar</a></li>
+          <li><a href="#hakkimda">Hakkımda</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="child_footer">
+        <h3>İletişim</h3>
+        <ul class="footer_contact">
+          <li><i class="fas fa-map-marked-alt"></i> Adress / Adres</li>
+          <li><i class="fas fa-phone"></i> 0543 543 0543</li>
+          <li><i class="fas fa-envelope"></i> iletisim@iletisim.com</li>
+        </ul>
+      </div>
+      <div class="child_footer">
+        <h3>Benden Bildirimler Al</h3>
+        <ul class="footer_contact">
+          <form action="#">
+            <input type="email" placeholder="E-posta" />
+            <input type="submit" value="Gönder" />
+          </form>
+        </ul>
+      </div>
+    </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+  </body>
+</html>
+
